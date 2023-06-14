@@ -5,6 +5,13 @@ With a Master's degree in Electronic Commerce and Internet Computing from The Un
 # My Professional Experience
 I used to work as Campaign Analyst in Shopee where I played a vital role in the operational activities of shopee’s Poland cross border market site. My responsibilities included end-to-end campaign management, which involved using tools like SQL to acquire data, python and excel to analyze data and conduct business reports. Additionally, I was also in charge of building key metrics system and automated data dashboards.  Prior to this role at shopee, I gained valuable experience as e-commerce operation specialist in Dmall, a company based in Beijing. There, I excelled in managing O2O activities for a major seller and wasr in charge of user management and analysis, and also produced monthly reports focusing on optimizing operational strategies.Furthermore, I had the opportunity to intern as an E-commerce Operation Intern at JD.com.
 # My Past Projects
+- [Python](https://github.com/TracyCJY/TracyCJY/edit/main/README.md#python)
+  - [Bank Deposit Subscription Prediction](https://github.com/TracyCJY/TracyCJY/edit/main/README.md#bank-deposit-subscription-prediction)
+  - [Customer Segmentation using Kmeans Clustering](https://github.com/TracyCJY/TracyCJY/edit/main/README.md#customer-segmentation-using-kmeans-clustering)
+  - [Marketing Campaign Analysis Using Uplift Model with Python](https://github.com/TracyCJY/TracyCJY/edit/main/README.md#marketing-campaign-analysis-using-uplift-model-with-python)
+
+ 
+
 ## Python
 ### Bank Deposit Subscription Prediction 
 **Code:** [Bank Deposit Subscription Exploratory Data Analysis](https://github.com/TracyCJY/-Bank-Saving-Deposit-Subscription-Plan-Campaign/blob/main/Bank_Deposit_Subscription_EDA.ipynb)
@@ -12,41 +19,45 @@ I used to work as Campaign Analyst in Shopee where I played a vital role in the 
 
 **Goal**: To make use of the dataset to predict if the client will subscribe (or not subscribe) to the new term saving deposit plan in order to inform the bank’s management executive.
 
-**Description:** 
-
-**1. Exploratory Data Analysis: **    
-- Classify the 17 indicators into 5 parts with more business sense
-  - Client Basic Information,
-  - Client Financial Information,
-  - Client Contact Information,
-  - Campaign Information,
-  - Target Value.
-- Three Dimensional Analysis: univariate analysis, bivariate analysis, multivariate analysis. 
-- Through the detailed EDA analysis, provide the data insights to the marketing team with relevant suggestions for the next marketing activities.
-
-**2. Building Models：**
-- Focuses on selecting features using RFE method with GradientBoostingClassifier(). Various models （'Logistic Regression','DecisionTreeClassifier','SGDClassifier', 'KNeighborsClassifier', 'SVCModel','Random Forest','XGBoost','GradientBoostingClassifier','LightGBM','MLP'） are then selected and optimized for performance, according to Accuracy,Precision, Recall, F1 Score, AUC.
-- Three specific models (Random Forest, LightGBM, and MLP) are compared based on their performance using the AUC metric. 
-
-**3. Fine Tune Models** 
-Use Grid Search to choose the best hyperparameters
-
-**4. Alleviate Imbalance Result Analysis**
+**Description:** **1)Exploratory Data Analysis:**      
+- Classify the 17 indicators into 5 parts with more business sense: Client Basic Information, Financial Information, Contact Information, Campaign Information,Target Value.
+- Three Dimensional Analysis: univariate analysis, bivariate analysis, multivariate analysis.     
+- Through the detailed EDA analysis, provide the data insights to the marketing team with relevant suggestions for the next marketing activities.       
+  **2) Building Models：**   
+- Focuses on selecting features using RFE method with GradientBoostingClassifier(). Various models （'Logistic Regression','DecisionTreeClassifier','SGDClassifier', 'KNeighborsClassifier', 'SVCModel','Random Forest','XGBoost','GradientBoostingClassifier','LightGBM','MLP'） are then selected and optimized for performance, according to Accuracy,Precision, Recall, F1 Score, AUC.    
+- Three specific models (Random Forest, LightGBM, and MLP) are compared based on their performance using the AUC metric.    
+  **3) Fine Tune Models**     
+Use Grid Search to choose the best hyperparameters      
+  **4) Alleviate Imbalance Result Analysis**    
 - **SMOTE** is applied to Model 1-Random Forest to alleviate imbalance issue. 
 - **Class Weight Adjustment** is applied to Model 2-LightGBM to alleviate imbalance issue. 
-- **Custom Loss Function** is applied to MLP to alleviate imbalance issue.
-
-**5. Ensemble Learning- Voting Classifier**
-The Voting Classifier technique is employed to combine the predictions from the three models.
-
-**6. Recommendation**
-Recommendations are provided regarding the dataset and marketing campaign strategies, including customer segmentation, expanding marketing channels, refining phone contact skills, targeting potential clients, and adjusting marketing time.
+- **Custom Loss Function** is applied to MLP to alleviate imbalance issue.    
+  **5) Ensemble Learning- Voting Classifier**   
+The Voting Classifier technique is employed to combine the predictions from the three models.   
+**6) Recommendation**     
+Recommendations are provided regarding the dataset and marketing campaign strategies, including customer segmentation, expanding marketing channels, refining phone contact skills, targeting potential clients, and adjusting marketing time.      
 
 **Skills:** Explorotary Data Analysis, Data Cleaning, Feature Engineering, Imbalance Alleviate
 
 **Technology:** RFE, Random Forest, LightGBM, Neural Network-MLP, Grid Search, Random Search, SMOTE, Voting Classifier
 
 **Result:** The ensemble learning voting classifier was used to combine Random Forest and LightGBM models, resulting in the best performance with a Precision value of 0.56, Recall value of 0.73, F1 Score of 0.64, and AUC value of 0.935.
+
+### Customer Segmentation using Kmeans Clustering
+**Code:**[Customer Segmentation using Kmeans Clustering](https://github.com/TracyCJY/Customer-Analysis-Unsupervised-Learning-/blob/main/Kmeans.ipynb)
+
+**Goal:** To address the business problem of understanding the company's customers and defining a customer segmentation strategy.
+
+**Description:**  I employed the K-means clustering algorithm. I built 3 models based on different attribute combinations: Age-SpendingScore, Income-SpendingScore, and Age-Income-SpendingScore. Throughout the analysis, I provided business insights and recommendations for each model. These insights ranged from targeting specific customer groups with new and trendy products to stimulating purchasing orders through discount methods. The analysis also highlighted the importance of Average Transaction Value (ATV) and maintaining high-spending customers. In conclusion, customer segmentation is crucial for e-commerce companies to enhance their performance and future strategic management. By using different clustering models, businesses can tailor their marketing and operational strategies to specific customer segments, leading to improved customer engagement and increased performance.
+
+**Skills:** Customer Segmentation, Marketing Strategy Optimization
+
+**Technology:** Unsupervise learning, K-means Clustering
+
+**Result:** Define three different customer segmentation methods for marketing team.
+
+
+
 
 ### Marketing Campaign Analysis Using Uplift Model with Python
 **Code:**[Marketing_Promotion_Campaign_Uplift_Modelling](https://github.com/TracyCJY/Uplift-Model/blob/main/Marketing_Promotion_Campaign_Uplift_Modelling.ipynb)    

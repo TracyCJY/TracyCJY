@@ -1,5 +1,6 @@
 # Portfolio
-Hello and welcome to my portfolio! My name is Jiaying Cui(Tracy), a skilled and dedicated Data Analyst with a passion for extracting meaningful insights from complex data sets. In this portfolio summary, I will provide an overview of my expertise, highlight key skills, and showcase some of the notable projects I have successfully completed.
+Hello and welcome to my portfolio! My name is Jiaying Cui(Tracy), a skilled and dedicated Data Analyst with a passion for extracting meaningful insights from complex data sets. In this portfolio summary, I will provide an overview of my expertise, highlight key skills, and showcase some of the notable projects I have successfully completed. I am committed to my ongoing professional development, constantly learning new techniques to further enhance my analytical skills.
+
 # Get to Know Me
 With a Master's degree in Electronic Commerce and Internet Computing from The University of Hong Kong and 2 years of experience in the e-commerce field, I have gained my abilities in data analysis, business intelligence, and data-driven decision-making. My technical skill set includes Python, SQL, operational analysis models, and proficiency in data visualization tools like Tableau.
 # My Professional Experience
@@ -19,11 +20,11 @@ I used to work as Campaign Analyst in Shopee where I played a vital role in the 
 
 **Goal**: To make use of the dataset to predict if the client will subscribe (or not subscribe) to the new term saving deposit plan in order to inform the bank’s management executive.
 
-**Description:** **1)Exploratory Data Analysis:**      
+**Description:** **1)Exploratory Data Analysis**      
 - Classify the 17 indicators into 5 parts with more business sense: Client Basic Information, Financial Information, Contact Information, Campaign Information,Target Value.
 - Three Dimensional Analysis: univariate analysis, bivariate analysis, multivariate analysis.     
 - Through the detailed EDA analysis, provide the data insights to the marketing team with relevant suggestions for the next marketing activities.       
-  **2) Building Models：**   
+  **2) Building Models**   
 - Focuses on selecting features using RFE method with GradientBoostingClassifier(). Various models （'Logistic Regression','DecisionTreeClassifier','SGDClassifier', 'KNeighborsClassifier', 'SVCModel','Random Forest','XGBoost','GradientBoostingClassifier','LightGBM','MLP'） are then selected and optimized for performance, according to Accuracy,Precision, Recall, F1 Score, AUC.    
 - Three specific models (Random Forest, LightGBM, and MLP) are compared based on their performance using the AUC metric.    
   **3) Fine Tune Models**     

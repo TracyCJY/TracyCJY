@@ -1,12 +1,8 @@
-- 👋 Hi, I’m @TracyCJY
-- 👀 I’m interested in data analyzing, machine learning, data visualization, and business analyst.
-- 🌱 I’m currently learning Machine Learning, Kaggle Competition, CFA ESG test. 
-- 💞️ I have 2 years working experience in e-commerce industry, the last job was in Shopee in charge of cross-border e-commerce campaign and site management. 
-- During my working experience, I have accumulated deep business analysis skills, last year I  quitted my job to pursue my master degree in HKU.
-- In this year, I want to polish my data and business analysis skills and looking for data analyst jobs
-- Welcome to contact me to exchange learning and working experience. My email is tracy1207cjy@gmail.com
+# Portfolio
+Hello and welcome to my portfolio! My name is Jiaying Cui(Tracy), a skilled and dedicated Data Analyst with a passion for extracting meaningful insights from complex data sets. In this portfolio summary, I will provide an overview of my expertise, highlight key skills, and showcase some of the notable projects I have successfully completed.
+# Get to Know Me
+With a Master's degree in Electronic Commerce and Internet Computing from The University of Hong Kong and 2 years of experience in the e-commerce field, I have gained my abilities in data analysis, business intelligence, and data-driven decision-making. My technical skill set includes Python, SQL, operational analysis models, and proficiency in data visualization tools like Tableau.
+# My Professional Experience
+I used to work as Campaign Analyst in Shopee where I played a vital role in the operational activities of shopee’s Poland cross border market site. My responsibilities included endtoend campaign management, which involved using tools like SQL to acquire data, python and excel to analyze data and conduct business reports. Additionally, I was also in charge of building key metrics system and automated data dashboards.  Prior to this role at shopee, I gained valuable experience as e-commerce operation specialist in Dmall, a company based in Beijing. There, I excelled in managing O2O activities for a major seller and wasr in charge of user management and analysis, and also produced monthly reports focusing on optimizing operational strategies.Furthermore, I had the opportunity to intern as an E-commerce Operation Intern at JD.com.
+# My Past Projects
 
-<!---
-TracyCJY/TracyCJY is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->

@@ -13,7 +13,8 @@ I used to work as Campaign Analyst in Shopee where I played a vital role in the 
 **Goal**: To make use of the dataset to predict if the client will subscribe (or not subscribe) to the new term saving deposit plan in order to inform the bank’s management executive.
 
 **Description:** 
-1. Exploratory Data Analysis: 
+
+**1. Exploratory Data Analysis: **    
 - Classify the 17 indicators into 5 parts with more business sense
   - Client Basic Information,
   - Client Financial Information,
@@ -22,18 +23,23 @@ I used to work as Campaign Analyst in Shopee where I played a vital role in the 
   - Target Value.
 - Three Dimensional Analysis: univariate analysis, bivariate analysis, multivariate analysis. 
 - Through the detailed EDA analysis, provide the data insights to the marketing team with relevant suggestions for the next marketing activities.
+
 **2. Building Models：**
 - Focuses on selecting features using RFE method with GradientBoostingClassifier(). Various models （'Logistic Regression','DecisionTreeClassifier','SGDClassifier', 'KNeighborsClassifier', 'SVCModel','Random Forest','XGBoost','GradientBoostingClassifier','LightGBM','MLP'） are then selected and optimized for performance, according to Accuracy,Precision, Recall, F1 Score, AUC.
 - Three specific models (Random Forest, LightGBM, and MLP) are compared based on their performance using the AUC metric. 
+
 **3. Fine Tune Models** 
 Use Grid Search to choose the best hyperparameters
+
 **4. Alleviate Imbalance Result Analysis**
 - **SMOTE** is applied to Model 1-Random Forest to alleviate imbalance issue. 
 - **Class Weight Adjustment** is applied to Model 2-LightGBM to alleviate imbalance issue. 
 - **Custom Loss Function** is applied to MLP to alleviate imbalance issue.
+
 **5. Ensemble Learning- Voting Classifier**
 The Voting Classifier technique is employed to combine the predictions from the three models.
-6. Recommendation
+
+**6. Recommendation**
 Recommendations are provided regarding the dataset and marketing campaign strategies, including customer segmentation, expanding marketing channels, refining phone contact skills, targeting potential clients, and adjusting marketing time.
 
 **Skills:** Explorotary Data Analysis, Data Cleaning, Feature Engineering, Imbalance Alleviate
